@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://euguisantosdev.github.io/sitemap.xml
