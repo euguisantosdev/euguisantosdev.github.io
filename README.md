@@ -27,12 +27,12 @@ Se usar outro domínio, troque a URL em `index.html` (canonical, `og:url`, `og:i
 - **Níveis de habilidade:** na seção Stack, troque a classe do chip: `lv-pro` (uso profissional), `lv-study` (estudado / projeto próprio), `lv-grow` (em desenvolvimento).
 - **Selo "Aberto a oportunidades":** remova o `<p class="status-pill">` do hero quando não se aplicar.
 - **Currículo:** substitua o PDF mantendo o mesmo nome de arquivo.
-- **Indicadores:** seção `#resultados` em `index.html` (valores em `data-to` e `--v`) e selos `tl-kpi` na linha do tempo.
+- **Indicadores:** removidos por ora; se voltar a publicar números, use somente os que puder comprovar.
 - **Foto:** troque os arquivos em `assets/img/` mantendo os nomes (ou ajuste o `<picture>` do hero).
 - **Cores:** variáveis no topo de `style.css`.
 - **Testar localmente:** `python3 -m http.server 8000` e abra `http://localhost:8000`.
 
 ## Observações
 
-- Projetos demonstrativos usam dados simulados e estão rotulados como tal.
+- Projetos pessoais usam dados simulados e estão rotulados como tal.
 - Fontes (Space Grotesk, Inter, JetBrains Mono) vêm do Google Fonts, com fallback para fontes do sistema.
