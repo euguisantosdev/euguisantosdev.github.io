@@ -168,7 +168,7 @@
           <li><strong>Desde 2023</strong><span>atuando em suporte de TI</span></li>
           <li><strong>4 ambientes</strong><span>corporativos: prefeitura, banco, restaurantes e plataforma digital</span></li>
           <li><strong>ADS concluído</strong><span>tecnologia em Análise e Desenvolvimento de Sistemas (Uniso, 2026)</span></li>
-          <li><strong>3 projetos</strong><span>autorais em código aberto, com testes e CI</span></li>
+          <li><strong>4 projetos</strong><span>autorais em código aberto, com testes e CI</span></li>
         </ul>
       </div>
     </section>
@@ -369,8 +369,34 @@
       <div class="container">
         <header class="section-head reveal">
           <h2 id="proj-title">O que construí para provar o que sei</h2>
-          <p class="section-sub">Três projetos pessoais, publicados em código aberto, cada um cobrindo uma camada diferente de sustentação. Usam dados simulados e não representam sistemas de nenhuma empresa.</p>
+          <p class="section-sub">Quatro projetos pessoais, publicados em código aberto, cada um cobrindo uma camada diferente de sustentação. Usam dados simulados e não representam sistemas de nenhuma empresa.</p>
         </header>
+
+        <article class="card project project-feature reveal">
+          <div class="feature-media">
+            <div class="shot" role="img" aria-label="Captura de tela do OpsDesk: painel com chamados abertos, SLA em risco, tempo médio de resolução, fila prioritária ordenada por SLA restante e volume por hora. Dados fictícios.">
+              <div class="shot-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+              <picture>
+                <source type="image/webp" srcset="assets/img/opsdesk-painel-900.webp 900w, assets/img/opsdesk-painel-1400.webp 1400w" sizes="(max-width: 1020px) 92vw, 640px">
+                <img src="assets/img/opsdesk-painel-900.jpg" srcset="assets/img/opsdesk-painel-900.jpg 900w, assets/img/opsdesk-painel-1400.jpg 1400w" sizes="(max-width: 1020px) 92vw, 640px" width="900" height="506" alt="" loading="lazy" decoding="async">
+              </picture>
+            </div>
+          </div>
+          <div class="feature-body">
+            <p class="project-type"><span class="demo-dot" aria-hidden="true"></span>Projeto pessoal · dados fictícios <span class="badge-new">Mais recente</span></p>
+            <h3>OpsDesk</h3>
+            <p>Service desk com <strong>SLA em tempo real</strong> e <strong>escalonamento N1 → N2</strong>. O prazo depende da prioridade (crítica 1h, alta 4h, média 8h, baixa 24h), o relógio pausa quando o chamado aguarda o usuário e para ao resolver. Escalar exige evidências registradas e resolver exige a descrição da solução.</p>
+            <ul class="feature-points">
+              <li>Quadro de chamados com arrastar e soltar; transições inválidas são recusadas.</li>
+              <li>Painel com indicadores e API JSON, em Python puro e SQLite, sem dependências externas.</li>
+              <li>32 testes automatizados de SLA, ciclo do chamado e API, rodando em CI.</li>
+            </ul>
+            <ul class="tags" aria-label="Tecnologias"><li>Python</li><li>SQLite</li><li>SQL</li><li>HTML, CSS e JavaScript</li><li>pytest</li><li>GitHub Actions</li></ul>
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="https://github.com/euguisantosdev/opsdesk" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> Ver código<span class="sr-only"> (abre em nova aba)</span></a>
+            </div>
+          </div>
+        </article>
 
         <div class="projects-grid">
           <article class="card project reveal">
