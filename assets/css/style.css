@@ -733,3 +733,6 @@ body::after {
 .feature-body .tags { margin-top: 20px; }
 @media (max-width: 1020px) { .project-feature { grid-template-columns: minmax(0, 1fr); gap: 24px; } }
 @media (max-width: 640px) { .project-feature { padding: 20px; } }
+
+/* Nota discreta sob a descrição de um projeto (ex.: painel que pode estar em repouso) */
+.project-note { color: var(--muted); font-size: .86rem; margin-top: .6rem; }
